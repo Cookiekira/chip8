@@ -108,7 +108,7 @@ impl Emu {
 
         match (digit1, digit2, digit3, digit4) {
             // NOP
-            (0, 0, 0, 0) => {}
+            (0, 0, 0, 0) => (),
             // CLS
             (0, 0, 0xE, 0) => {
                 self.screen = [false; SCREEN_WIDTH * SCREEN_HEIGHT];

@@ -1,2 +1,2 @@
 [workspace]
-members= ['chip8_core', 'desktop']
+members= ['chip8_core', 'desktop','wasm']
